@@ -24,8 +24,6 @@ open_ssh_session () {
 
 create_tab "Openstack"
 open_ssh_session $OPENSTACK_NODE $SSHPASS
-create_tab "NVSD"
-open_ssh_session $NVSD_NODE $SSHPASS
 create_tab "Network"
 open_ssh_session $VM_HOST_CTRL $SSHPASS
 open_ssh_session $NETWORK_NODE $SSHPASS
